@@ -1,0 +1,50 @@
+/* src/pages/ContentIssue/ContentIssue.css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 80em;
+    margin-top: 50px;
+}
+
+.fundo {
+    background-color: #010c16;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.body {
+    color: #ccc;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    max-width: 800px;
+    text-align: justify;
+}
+
+.link {
+    color: #61dafb;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.link:hover {
+    text-decoration: underline;
+}

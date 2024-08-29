@@ -32,7 +32,7 @@ function Home() {
                 title={card.title}
                 time="a 2 horinha"
                 description={card.body}
-                link={`/issue/${card.id}`} // Navegação para a página ContentIssue
+                link={`/issue/${card.number}`}
               />
             ))
           ) : (

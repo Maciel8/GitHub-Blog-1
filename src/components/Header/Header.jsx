@@ -19,7 +19,7 @@ const Header = () => {
   
   return (
     <div className={st.header}>
-        <img src={user?.avatar_url} alt="Macaco perfill" />
+        <img src={user?.avatar_url} alt="Foto perfill" />
         <div className={st.content}>
             <div className={st.name_github}>
                 <h1>{user?.login}</h1>
