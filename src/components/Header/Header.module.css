@@ -1,0 +1,62 @@
+.header{
+    background-color: #0B1B2B;
+    width: 100%;
+    max-width: 60em;
+    height: 13em;
+    box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+}
+
+.header img{
+    height: 10rem;
+    border-radius: 8px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.name_github {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name_github a{
+    text-decoration: none;
+    color: #00a2ff;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.name_github a:hover{
+    color: #75c8f8;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #75c8f8;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.links a:hover{
+    color: #00a2ff;
+}
