@@ -10,7 +10,7 @@ const Header = () => {
   
   useEffect(() => {
     api
-      .get('/users/andrebarros1')
+      .get('/users/Maciel8')
       .then((response) => setUSer(response.data))
       .catch((e) => {
         console.log("Ops ocorreu um erro: " + e)

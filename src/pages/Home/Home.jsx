@@ -30,7 +30,7 @@ function Home() {
               <Card
                 key={card.id}
                 title={card.title}
-                time="a 2 horinha"
+                time="a 3 horas"
                 description={card.body}
                 link={`/issue/${card.number}`}
               />
